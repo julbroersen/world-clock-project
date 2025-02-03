@@ -1,7 +1,76 @@
+body {
+  background: rgba(99, 140, 109);
+  font-family: "Roboto Slab", serif;
+}
+
+h1 {
+  color: rgba(200, 76, 5);
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+
+.city-select {
+  background: rgba(245, 255, 219);
+  border-radius: 4px;
+  color: rgba(99, 140, 109);
+  display: block;
+  font-family: "Roboto Slab", serif;
+  margin: 0 0 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.container {
+  background: rgba(231, 251, 180);
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.1);
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 40px;
+}
+
+.current-time {
+  border-bottom: 1px solid rgba(99, 140, 109, 0.3);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.city {
+  color: rgba(200, 76, 5);
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+}
+
+.date {
+  color: rgba(223, 109, 45);
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.time {
+  color: rgba(200, 76, 5);
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.time small {
+  font-size: 18px;
+  line-height: 36px;
+  vertical-align: middle;
+}
+
 footer {
+  color: rgba(99, 140, 109);
+  font-size: 12px;
+  padding: 10px 0 0;
   text-align: center;
 }
 
 a {
+  color: rgba(200, 76, 5);
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 0;
   text-decoration: none;
 }

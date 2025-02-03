@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
     <title>World Clock</title>
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select name="" id="">
+      <select name="" id="city-select" class="city-select">
         <option value="">Select a city</option>
         <option value="">Display All</option>
         <option value="">Vancouver</option>
@@ -20,13 +25,22 @@
         <option value="">Halifax</option>
         <option value="">St. John's</option>
       </select>
-      <div class="city">
-        <h2>Vancouver</h2>
-        <div class="date">Monday, February 3rd, 2025</div>
-        <div class="time">12:42:56 PM</div>
+      <div class="current-time">
+        <div>
+          <h2 class="city">Vancouver</h2>
+          <div class="date">Monday, February 3rd, 2025</div>
+        </div>
+        <div class="time">12:42:56 <small>PM</small></div>
+      </div>
+      <div class="current-time">
+        <div>
+          <h2 class="city">Calgary</h2>
+          <div class="date">Monday, February 3rd, 2025</div>
+        </div>
+        <div class="time">13:42:56 <small>PM</small></div>
       </div>
       <footer>
-        This project was coded with 🩵 by
+        This project was coded by
         <a href="https://github.com/julbroersen" target="_blank"
           >Juliana Broersen</a
         >
