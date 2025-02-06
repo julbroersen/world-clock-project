@@ -3,7 +3,7 @@ body {
   font-family: "Roboto Slab", serif;
 }
 .container {
-  background: rgba(231, 251, 180);
+  background: rgba(213, 231, 181);
   border-radius: 10px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.1);
   margin: 0 auto;
@@ -57,6 +57,10 @@ h1 {
   font-size: 18px;
   line-height: 36px;
   vertical-align: middle;
+}
+
+.reset {
+  padding: 10px;
 }
 
 footer {

@@ -20,6 +20,16 @@ function updateTime() {
   torontoTimeElement.innerHTML = torontoTime.format(
     "HH:mm:ss [<small>]A[</small>]"
   );
+
+  let halifaxElement = document.querySelector("#halifax");
+  let halifaxDateElement = halifaxElement.querySelector(".date");
+  let halifaxTimeElement = halifaxElement.querySelector(".time");
+  let halifaxTime = moment().tz("America/Halifax");
+
+  halifaxDateElement.innerHTML = halifaxTime.format("dddd, MMMM Do, YYYY");
+  halifaxTimeElement.innerHTML = halifaxTime.format(
+    "HH:mm:ss [<small>]A[</small>]"
+  );
 }
 
 function updateCity(event) {
@@ -39,7 +49,8 @@ function updateCity(event) {
           <div class="time">${cityTime.format(
             "h:mm:ss"
           )} <small>${cityTime.format("A")}</small></div>
-        </div>`;
+        </div> <a href="index.html" class="reset">Reset</a>
+        `;
 }
 
 updateTime();
