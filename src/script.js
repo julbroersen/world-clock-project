@@ -1,13 +1,13 @@
 function updateTime() {
-  let mississaugaElement = document.querySelector("#mississauga");
-  let mississaugaDateElement = mississaugaElement.querySelector(".date");
-  let mississaugaTimeElement = mississaugaElement.querySelector(".time");
-  let mississaugaTime = moment().tz("America/Toronto");
+  let losAngelesElement = document.querySelector("#los-angeles");
+  let losAngelesDateElement = losAngelesElement.querySelector(".date");
+  let losAngelesTimeElement = losAngelesElement.querySelector(".time");
+  let losAngelesTime = moment().tz("America/Los_Angeles");
 
-  mississaugaDateElement.innerHTML = mississaugaTime.format(
+  losAngelesDateElement.innerHTML = losAngelesTime.format(
     "dddd, MMMM Do, YYYY"
   );
-  mississaugaTimeElement.innerHTML = mississaugaTime.format(
+  losAngelesTimeElement.innerHTML = losAngelesTime.format(
     "HH:mm:ss [<small>]A[</small>]"
   );
 }
