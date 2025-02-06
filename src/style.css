@@ -1,9 +1,9 @@
 body {
-  background: rgba(99, 140, 109);
+  background: rgba(186, 216, 182);
   font-family: "Roboto Slab", serif;
 }
 .container {
-  background: rgba(213, 231, 181);
+  background: rgba(249, 249, 242);
   border-radius: 10px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.1);
   margin: 0 auto;
@@ -12,15 +12,15 @@ body {
 }
 
 h1 {
-  color: rgba(200, 76, 5);
+  color: rgba(186, 216, 182);
   font-family: "Roboto Slab", serif;
   text-align: center;
 }
 
 .city-select {
-  background: rgba(245, 255, 219);
+  background: rgba(249, 249, 242);
   border-radius: 4px;
-  color: rgba(99, 140, 109);
+  color: rgba(186, 216, 182);
   display: block;
   font-family: "Roboto Slab", serif;
   margin: 0 0 10px;
@@ -35,19 +35,18 @@ h1 {
   padding: 10px;
 }
 .city {
-  color: rgba(200, 76, 5);
+  color: rgba(141, 119, 171);
   font-family: "Roboto Slab", serif;
   margin: 0;
 }
 
 .date {
-  color: rgba(223, 109, 45);
+  color: rgba(186, 216, 182);
   font-size: 12px;
-  opacity: 0.7;
 }
 
 .time {
-  color: rgba(200, 76, 5);
+  color: rgba(141, 119, 171);
   font-family: "Roboto Slab", serif;
   font-size: 36px;
   font-weight: bolder;
@@ -64,14 +63,14 @@ h1 {
 }
 
 footer {
-  color: rgba(99, 140, 109);
+  color: rgba(186, 216, 182);
   font-size: 12px;
   padding: 10px 0 0;
   text-align: center;
 }
 
 a {
-  color: rgba(200, 76, 5);
+  color: rgba(141, 119, 171);
   font-size: 12px;
   font-weight: bolder;
   padding: 0;
